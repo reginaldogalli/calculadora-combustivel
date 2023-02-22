@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<title>Calculadora de custo de combustível</title>
+	</head>
+	<body class="container">
+		<header class="container">
+				<img src="./img/gas.svg">
+				<h1>Calculadora de custo de combustível por Km rodado</h1>
+		</header>
+		<main class="container">
+			<div class="container" id="box">
+				<div>
+					<label for="valor" class="texto">Insira o valor abastecido:</label>
+					<div class="input"> 
+						<span>R$</span>
+						<input type="text" id="valor" placeholder="280,00">
+					</div>
+				</div>
+				<div>
+					<label for="km" class="texto">Insira a quilometragem percorrida após o abastecimento: </label>
+					<div class="input">
+						<input type="text" id="km" placeholder="580,00">
+						<span>Km</span>
+					</div>
+				</div>
+				<button id="calcular">Calcular</button>
+				<div id="resultado"></div>
+			</div>
+		</main>
+		<script src= "script.js"></script>
+	</body>
+</html>
