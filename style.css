@@ -65,6 +65,7 @@ input {
 	margin: 0 10px 0 10px;
 	border: 1px solid lightGray;
 	border-radius: 5px;
+	font-size: 1.5em;
 }
 
 .input {
@@ -98,7 +99,7 @@ input {
 }
 
 span {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 
