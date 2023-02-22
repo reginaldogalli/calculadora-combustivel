@@ -68,6 +68,10 @@ input {
 	font-size: 1.5em;
 }
 
+input::placeholder{
+	color: #CCCACA;
+}
+
 .input {
 	margin-top: 20px;
 }
