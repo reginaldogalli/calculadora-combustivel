@@ -6,7 +6,7 @@ function calc () {
     const resultado = document.getElementById('resultado');
 
     if (valor !== '' && km !== ''){
-        const valorCalculado = (valor/km).toFixed(2);
+        const valorCalculado = (valor/km).toFixed(2).replace(".", ",");
         resultado.textContent = 'O valor de cada Km rodado é de: R$' + valorCalculado;
     } else {
         resultado.textContent ='Preencha todos os campos!';
